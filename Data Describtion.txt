@@ -1,0 +1,56 @@
+Features of the dataset :
+
+ID : ID of the new (integer)
+
+title : The title news (string)
+
+text : The content of news (string)
+
+subject : Under what subject does the news fall (string)
+
+date : The date on which the news was published (date)
+
+class : The class in which the news is classified, 0 -> fake 1 -> not fake (boolean)
+
+Test Dataset (`test.csv`)
+- Columns: The dataset includes the following columns:
+  - ID: Unique identifier for each article.
+  - title: The headline of the news article.
+  - text: The content of the news article.
+  - subject: The category or subject of the news article.
+  - date: The publication date of the article.
+
+- Sample Data: A few examples from the dataset:
+  - Article about a U.S. judge questioning the Trump administration on immigration bans.
+  - News on government actions related to Trump's travel bans.
+  - Headlines about states seeking to restore Obama-era internet rules.
+
+- Dataset Info: 
+  - The dataset contains 4469 entries.
+  - All columns are fully populated with no missing values.
+  - Data types include integers for IDs and strings for titles, texts, subjects, and dates.
+
+ Train Dataset (`train.csv`)
+- Columns: The dataset includes the following columns:
+  - ID: Unique identifier for each article.
+  - title: The headline of the news article.
+  - text: The content of the news article.
+  - subject: The category or subject of the news article.
+  - date: The publication date of the article.
+  - class: A classification label, possibly indicating the sentiment or relevance of the article.
+
+- Sample Data: A few examples from the dataset:
+  - Articles with hashtags discussing political and social issues.
+  - News on movements and reactions to political events.
+  - Various headlines capturing public reactions and major news stories.
+
+- Dataset Info: 
+  - The dataset contains 44898 entries.
+  - All columns are fully populated with no missing values.
+  - Data types include floating-point numbers for IDs and classes, and strings for titles, texts, subjects, and dates.
+
+- Dataset Shape: 
+  - The training dataset has 44898 rows and 6 columns.
+
+Summary :
+Both datasets comprise news articles with attributes like ID, title, text, subject, and date. The training dataset includes an additional `class` column indicating a classification target. The test dataset has 4469 entries, while the training dataset has 44898 entries. Both datasets are complete with no missing values.
